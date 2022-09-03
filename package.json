@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/node": "^18.7.14"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start-powerhint": "node -e \"require('./dist/main.js').main()\""
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
